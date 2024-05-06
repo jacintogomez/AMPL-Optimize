@@ -1,0 +1,7 @@
+model resource.mod;
+
+option solver cplex;
+
+solve;
+
+display totalprofit,bluepaint,goldpaint;
